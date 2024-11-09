@@ -13,21 +13,22 @@ Run the script app.js
 # How to use it ?
 
 To add a task
-task-cli add description
+`task-cli add description`
 
 To update a task
-task-cli update id description
+`task-cli update id description`
 
 To delete a task
-task-cli delete id
+`task-cli delete id`
 
 To mark a task as in progress
-task-cli mark-in-progress id
+`task-cli mark-in-progress id`
 
 To mark a task as done
-task-cli mark-done id
+`task-cli mark-done id`
 
 ## Examples
+```
 task-cli add "Buy groceries"
 
 task-cli update 1 "Buy groceries and cook dinner"
@@ -41,3 +42,4 @@ task-cli list
 task-cli list done
 task-cli list todo
 task-cli list in-progress
+```
